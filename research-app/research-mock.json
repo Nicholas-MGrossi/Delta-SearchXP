@@ -1,0 +1,53 @@
+{
+  "sources": [
+    {
+      "id": "2505.09024",
+      "title": "Automated Meta Prompt Engineering for Alignment with the Theory of Mind",
+      "summary": "Meta-prompting with agentic RL: LLM Judge teaches via in-context learning for ToM alignment. Hilbert vector space for content traits. Deployed US Open 2024.",
+      "url": "https://arxiv.org/abs/2505.09024",
+      "date": "2025-05-13",
+      "trend": "meta-prompt"
+    },
+    {
+      "id": "2311.11482",
+      "title": "Meta Prompting for AI Systems",
+      "summary": "Functor/monad framework for recursive meta-prompting. Strong on compositional reasoning/math.",
+      "url": "https://arxiv.org/abs/2311.11482",
+      "date": "2023-11-20",
+      "trend": "meta-prompt"
+    },
+    {
+      "id": "2312.06562",
+      "title": "On Meta-Prompting",
+      "summary": "Category theory for ICL/meta-prompting. Guarantees compositional strategies.",
+      "url": "https://arxiv.org/abs/2312.06562",
+      "date": "2023-12-11",
+      "trend": "meta-prompt"
+    },
+    {
+      "id": "prompttools",
+      "title": "prompttools: LLM + Vector DB Tools",
+      "summary": "Open-source for prompt testing with Chroma/Weaviate/LanceDB.",
+      "url": "https://github.com/hegelai/prompttools",
+      "date": "2026-04-09",
+      "stars": 3030,
+      "trend": "vector"
+    },
+    {
+      "id": "2505.12524",
+      "title": "HAKES: Scalable Vector Database",
+      "summary": "Two-stage ANN index, disaggregated for high throughput.",
+      "url": "https://arxiv.org/abs/2505.12524",
+      "date": "2025-05-18",
+      "trend": "vector"
+    },
+    {
+      "id": "2504.05573",
+      "title": "MicroNN: On-device Vector DB",
+      "summary": "Disk-resident updatable for low-resource envs.",
+      "url": "https://arxiv.org/abs/2504.05573",
+      "date": "2025-04-08",
+      "trend": "vector"
+    }
+  ]
+}

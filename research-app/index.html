@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Vector App: Meta-Prompt & Steelpoint Synthesis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Research Vector Deployment App</h1>
+        <p><em>Goal-locked: Real-time trending only [^1][^2]. No prior knowledge.</em></p>
+        
+        <div class="input-section">
+            <label for="goal">Enter Research Goal:</label>
+            <textarea id="goal" placeholder="E.g., Optimize vector deployment for meta-prompt isolation"></textarea>
+            <button onclick="processGoal()">Synthesize Steelpoint</button>
+        </div>
+        
+        <div id="loading" class="hidden">Fetching live research...</div>
+        
+        <div id="output" class="output-section hidden">
+            <h2>Steelpoint Synthesis</h2>
+            <div id="result"></div>
+            <h3>Vector Matches (Top-5, Cosine Sim)</h3>
+            <ul id="vectors"></ul>
+            <h3>Meta-Prompt Trace</h3>
+            <div id="prompt-trace"></div>
+        </div>
+        
+        <details>
+            <summary>Citations (Live Sources)</summary>
+            <div id="citations"></div>
+        </details>
+    </div>
+    
+    <script src="app.js"></script>
+    <script>
+        // Preload mock for demo
+        loadMockData();
+    </script>
+</body>
+</html>
